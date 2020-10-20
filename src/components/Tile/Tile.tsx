@@ -37,7 +37,7 @@ const styles: Style = (theme: CustomTheme): Record<ClassNames, ((p: Props) => CS
     height: theme.custom.size.tile,
     width: theme.custom.size.tile,
     background: theme.custom.tileColors[props.value],
-    borderRadius: '50%',
+    borderRadius: '20%',
     justifySelf: 'center',
     alignSelf: 'center',
   }),
